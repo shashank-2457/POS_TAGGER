@@ -1,10 +1,11 @@
-Implement a bigram HMM POS tagger. During training, you have to calculate two kinds of probabilities (store them in two large dictionaries):
+Implemented a bigram HMM POS tagger. During training, I have to calculate two kinds of probabilities (store them in two large dictionaries):
 • P(ti|ti−1) (similar to the bigram LM you have already implemented, use Laplace smoothing).
 These are the prior probabilities.
 • P(wi|ti), the probability of observing word wi given POS tag ti
 . You don’t need to smooth this
 probability distribution. These are the likelihood probabilities.
-Use Viterbi decoding during testing (you have to update token.tag with the right tag).
+Using  Viterbi decoding during testing (you have to update token.tag with the right tag).
+
 Your can run the starter code with the following command:
 
 $ python3 code/pos_tagger.py data/train data/heldout --mode always_NN
