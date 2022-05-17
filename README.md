@@ -1,3 +1,11 @@
+Parts of speech Tagging For unknown words.
+
+
+Prereq:- Smoothing (LAPLACE smoothing)
+          Understanding of HMM and  Viterbi algorithm
+          Python
+          NLP Basic Libraries
+
 Implemented a bigram HMM POS tagger. During training, I have to calculate two kinds of probabilities (store them in two large dictionaries):
 • P(ti|ti−1) (similar to the bigram LM you have already implemented, use Laplace smoothing).
 These are the prior probabilities.
